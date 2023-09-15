@@ -28,5 +28,5 @@ compileJava {
 }
 
 run {
-    standardInput = System.in
+    standardInput(System.in)
 }
