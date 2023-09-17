@@ -3,5 +3,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/fd2a1e010c133e2687ed/maintainability)](https://codeclimate.com/github/ZorgIT/java-project-61/maintainability)
 
 ## asciinema
-L5 [Record first test asciinema] (https://asciinema.org/a/8fjcFsXZqDh4W16fbL0VUmOGR)
-L6 [Record two game asciinema] (https://asciinema.org/a/7jgcxbwLRa0jU2Slz5LcFP5bf)
+st5 [Record first test asciinema] (https://asciinema.org/a/8fjcFsXZqDh4W16fbL0VUmOGR)
+st6 [Record two game asciinema] (https://asciinema.org/a/7jgcxbwLRa0jU2Slz5LcFP5bf)
+st7 [Record GCD game plaing] (https://asciinema.org/a/Ffs4RgAwBIrwWhePg80E9rYbp)
