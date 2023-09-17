@@ -1,5 +1,6 @@
 package hexlet.code;
 
+import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
 
 import java.util.Scanner;
@@ -12,6 +13,7 @@ public class App {
             System.out.println("Please enter the game number and press Enter");
             System.out.println("1 - Greet");
             System.out.println("2 - Even");
+            System.out.println("3 - Calc");
             System.out.println("0 - exit");
             System.out.print("Your choose: ");
             Scanner scanner = new Scanner(System.in);
@@ -22,13 +24,16 @@ public class App {
                     Cli.start(player);
                     break;
                 case 2:
-                    Cli.start(player); //добавить проверку на наличие имени.
                     Even.start(player);
+                    break;
+                case 3:
+                    Calc.start(player);
+                    break;
                 case 0:
                     resumeGame = false;
                     break;
                 default:
-                    System.out.println("Choose one of them: 1,0");
+                    System.out.println("Type in: 1,2,3 or 0(exit)");
                     break;
             }
             System.out.println();
