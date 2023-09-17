@@ -1,6 +1,6 @@
 package hexlet.code;
 
-class Player {
+public class Player {
     private String name;
 
     Player(String name) {

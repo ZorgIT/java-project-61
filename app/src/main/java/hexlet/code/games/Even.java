@@ -1,6 +1,8 @@
-package hexlet.code;
+package hexlet.code.games;
 
-import java.util.Random;
+import hexlet.code.Player;
+import hexlet.code.Util;
+
 import java.util.Scanner;
 
 public class Even {
@@ -10,7 +12,7 @@ public class Even {
 
         var counter = 0;
         while (counter < 3) {
-            var questionNum = getRandomPositiveInt(20);
+            var questionNum = Util.getRandomPositiveInt(20);
             System.out.println("Question:" + questionNum);
             System.out.println("Your answer: ");
             Scanner scanner = new Scanner(System.in);
@@ -31,9 +33,5 @@ public class Even {
         System.out.println("Congratulations, " + player.getName() + "!");
     }
 
-    public static int getRandomPositiveInt(int upperBound) {
-        Random random = new Random();
-        var randomNumber = random.nextInt(upperBound) + 1;
-        return randomNumber;
-    }
+
 }
