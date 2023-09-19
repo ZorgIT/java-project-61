@@ -6,5 +6,5 @@
 
 st5 [Record first test asciinema](https://asciinema.org/a/8fjcFsXZqDh4W16fbL0VUmOGR)\
 st6 [Record two game asciinema](https://asciinema.org/a/7jgcxbwLRa0jU2Slz5LcFP5bf)\
-st7 [Record GCD game plaing](https://asciinema.org/a/Ffs4RgAwBIrwWhePg80E9rYbp)\
-st8 [Record GCD game plaing](https://asciinema.org/a/4jX312nO5NPPBMFD0yFGHeCO0)\ 
+st7 [Record GCD game asciinema](https://asciinema.org/a/Ffs4RgAwBIrwWhePg80E9rYbp)\
+st8 [Record Progression game asciinema](https://asciinema.org/a/4jX312nO5NPPBMFD0yFGHeCO0)\ 
