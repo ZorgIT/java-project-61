@@ -24,8 +24,6 @@ public class Prime {
                     (Arrays.binarySearch(simpleNumbers, questionNum) > -1)
                             ? "yes" : "no";
             engine.checkResult(player, answer, correctAnswer);
-            System.out.println("test " + Arrays.binarySearch(simpleNumbers, +
-                    questionNum));
         }
         System.out.println("Congratulations, " + player.getName() + "!");
     }
