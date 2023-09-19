@@ -3,6 +3,7 @@ package hexlet.code;
 import hexlet.code.games.Calc;
 import hexlet.code.games.Even;
 import hexlet.code.games.GCD;
+import hexlet.code.games.Progression;
 
 import java.util.Scanner;
 
@@ -16,6 +17,7 @@ public class App {
             System.out.println("2 - Even");
             System.out.println("3 - Calc");
             System.out.println("4 - GCD");
+            System.out.println("5 - Progression");
             System.out.println("0 - exit");
             System.out.print("Your choose: ");
             Scanner scanner = new Scanner(System.in);
@@ -34,11 +36,13 @@ public class App {
                 case 4:
                     GCD.start(player);
                     break;
+                case 5:
+                    Progression.start(player);
                 case 0:
                     resumeGame = false;
                     break;
                 default:
-                    System.out.println("Type in: 1,2,3 or 0(exit)");
+                    System.out.println("Type in: 1,2,3,4,5 or 0(exit)");
                     break;
             }
             System.out.println();
