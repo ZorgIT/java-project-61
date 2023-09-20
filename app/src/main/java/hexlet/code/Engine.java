@@ -2,7 +2,7 @@ package hexlet.code;
 
 import java.util.Scanner;
 
-public class Engine {
+public final class Engine {
     private int correctAnswerCounter;
 
     public Engine(Player player) {
@@ -38,8 +38,4 @@ public class Engine {
     public void correctAnswerCounterInc() {
         this.correctAnswerCounter += 1;
     }
-
-//    public void correctAnswerCounterReset() {
-//        this.correctAnswerCounter = 4;
-//    }
 }

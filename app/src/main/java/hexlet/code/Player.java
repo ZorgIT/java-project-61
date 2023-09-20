@@ -1,6 +1,6 @@
 package hexlet.code;
 
-public class Player {
+public final class Player {
     private String name;
 
     Player(String name) {
@@ -11,7 +11,7 @@ public class Player {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String newName) {
+        this.name = newName;
     }
 }
