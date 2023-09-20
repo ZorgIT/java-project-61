@@ -9,8 +9,8 @@ public class Progression {
         Engine engine = new Engine(player);
         System.out.println("What number is missing in the progression?");
         while (engine.getCorrectAnswerCounter() < 3) {
-            var lengthProgression = Util.getRandomWithBound(5, 10);
-            var hiddenSymbol = Util.getRandomWithBound(0,
+            var lengthProgression = Util.getRandomWithBound(6, 10);
+            var hiddenSymbol = Util.getRandomWithBound(1,
                     lengthProgression - 1);
             var stepProgression = Util.getRandomPositiveInt(10);
             var startStep = Util.getRandomPositiveInt(100);
