@@ -9,6 +9,8 @@ public class Calc {
         final int numBound1 = 5;
         final int numBound2 = 30;
         final int operatorCount =  3;
+        final int switchCase2 = 2;
+        final int switchCase3 = 3;
 
         Engine engine = new Engine(player);
         System.out.println("What is the result of the expression?");
@@ -20,11 +22,11 @@ public class Calc {
             var operator = Util.getRandomPositiveInt(operatorCount);
             var correctAnswer = 0;
             switch (operator) {
-                case 2:
+                case switchCase2:
                     question = num1 + " - " + num2;
                     correctAnswer = num1 - num2;
                     break;
-                case 3:
+                case switchCase3:
                     question = num1 + " * " + num2;
                     correctAnswer = num1 * num2;
                     break;
