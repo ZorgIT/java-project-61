@@ -24,7 +24,6 @@ public class Progression {
                     curStep += stepProgression;
                     continue;
                 }
-
                 question += curStep + " ";
                 curStep += stepProgression;
             }
