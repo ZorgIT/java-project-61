@@ -16,17 +16,19 @@ public class Progression {
             var startStep = Util.getRandomPositiveInt(100);
             var curStep = startStep;
             var correctAnswer = "not set";
+            var question = "";
             for (int i = 0; i < lengthProgression; i++) {
                 if (i == hiddenSymbol) {
                     correctAnswer = String.valueOf(curStep);
-                    System.out.print(".. ");
+                    question += ".. ";
                     curStep += stepProgression;
                     continue;
                 }
-                System.out.print(curStep + " ");
+
+                question += curStep + " ";
                 curStep += stepProgression;
             }
-            System.out.print("\n");
+            engine.showQuestion(question);
             var answer = engine.getAnswer();
             engine.checkResult(player, answer, correctAnswer);
         }
