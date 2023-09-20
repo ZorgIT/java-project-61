@@ -19,7 +19,7 @@ public class Progression {
             for (int i = 0; i < lengthProgression; i++) {
                 if (i == hiddenSymbol) {
                     correctAnswer = String.valueOf(curStep);
-                    System.out.print("... ");
+                    System.out.print(".. ");
                     curStep += stepProgression;
                     continue;
                 }
