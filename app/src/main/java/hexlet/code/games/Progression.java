@@ -11,7 +11,7 @@ public class Progression {
         while (engine.getCorrectAnswerCounter() < 3) {
             var lengthProgression = Util.getRandomWithBound(6, 10);
             var hiddenSymbol = Util.getRandomWithBound(1,
-                    lengthProgression - 1);
+                    lengthProgression - 2);
             var stepProgression = Util.getRandomPositiveInt(10);
             var startStep = Util.getRandomPositiveInt(100);
             var curStep = startStep;
