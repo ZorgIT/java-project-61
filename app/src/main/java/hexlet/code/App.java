@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) {
         Player player = new Player("Default-user");
         var resumeGame = true;
-        while (resumeGame) {
+        //while (resumeGame) {
             System.out.println("Please enter the game number and press Enter");
             System.out.println("1 - Greet");
             System.out.println("2 - Even");
@@ -51,6 +51,6 @@ public class App {
                     break;
             }
             System.out.println();
-        }
+        //}
     }
 }
