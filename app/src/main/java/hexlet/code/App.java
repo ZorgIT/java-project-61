@@ -12,8 +12,6 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
         Player player = new Player("Default-user");
-        var resumeGame = true;
-        //while (resumeGame) {
             System.out.println("Please enter the game number and press Enter");
             System.out.println("1 - Greet");
             System.out.println("2 - Even");
@@ -41,16 +39,15 @@ public class App {
                     break;
                 case 5:
                     Progression.start(player);
+                    break;
                 case 6:
                     Prime.start(player);
+                    break;
                 case 0:
-                    resumeGame = false;
                     break;
                 default:
                     System.out.println("Type in: 1,2,3,4,5,6 or 0(exit)");
                     break;
             }
-            System.out.println();
-        //}
     }
 }
