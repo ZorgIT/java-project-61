@@ -3,8 +3,8 @@ package hexlet.code;
 public final class Player {
     private String name;
 
-    Player(String name) {
-        this.name = name;
+    Player(String nameInit) {
+        this.name = nameInit;
     }
 
     public String getName() {

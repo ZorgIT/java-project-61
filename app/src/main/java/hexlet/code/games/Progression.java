@@ -6,14 +6,20 @@ import hexlet.code.Util;
 
 public class Progression {
     public static void start(Player player) {
+        final int lowerBound = 6;
+        final int upperBound = 10;
+        final int stepBound = 10;
+        final int startNumberBound = 100;
+
         Engine engine = new Engine(player);
         System.out.println("What number is missing in the progression?");
-        while (engine.getCorrectAnswerCounter() < 3) {
-            var lengthProgression = Util.getRandomWithBound(6, 10);
+        while (engine.getCorrectAnswerCounter() < engine.getGameRound()) {
+            var lengthProgression = Util.getRandomWithBound(lowerBound,
+                    upperBound);
             var hiddenSymbol = Util.getRandomWithBound(1,
                     lengthProgression - 2);
-            var stepProgression = Util.getRandomPositiveInt(10);
-            var startStep = Util.getRandomPositiveInt(100);
+            var stepProgression = Util.getRandomPositiveInt(stepBound);
+            var startStep = Util.getRandomPositiveInt(startNumberBound);
             var curStep = startStep;
             var correctAnswer = "not set";
             var question = "";

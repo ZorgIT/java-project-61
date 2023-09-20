@@ -6,14 +6,18 @@ import hexlet.code.Util;
 
 public class Calc {
     public static void start(Player player) {
+        final int numBound1 = 5;
+        final int numBound2 = 30;
+        final int operatorCount =  3;
+
         Engine engine = new Engine(player);
         System.out.println("What is the result of the expression?");
 
-        while (engine.getCorrectAnswerCounter() < 3) {
+        while (engine.getCorrectAnswerCounter() < engine.getGameRound()) {
             String question = null;
-            var num1 = Util.getRandomPositiveInt(5);
-            var num2 = Util.getRandomPositiveInt(30);
-            var operator = Util.getRandomPositiveInt(3);
+            var num1 = Util.getRandomPositiveInt(numBound1);
+            var num2 = Util.getRandomPositiveInt(numBound2);
+            var operator = Util.getRandomPositiveInt(operatorCount);
             var correctAnswer = 0;
             switch (operator) {
                 case 2:

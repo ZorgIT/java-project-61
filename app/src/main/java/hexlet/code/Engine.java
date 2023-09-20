@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public final class Engine {
     private int correctAnswerCounter;
+    private final int gameRound = 3;
 
     public Engine(Player player) {
         correctAnswerCounter = 0;
@@ -37,5 +38,9 @@ public final class Engine {
 
     public void correctAnswerCounterInc() {
         this.correctAnswerCounter += 1;
+    }
+
+    public int getGameRound() {
+        return gameRound;
     }
 }
