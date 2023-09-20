@@ -13,21 +13,22 @@ public class Engine {
         System.out.println("Question: " + question);
     }
     public String getAnswer() {
-        System.out.println("Your answer: ");
+        System.out.print("Your answer: ");
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
     }
     public void checkResult(Player player, String playerAnswer,
                                        String correctAnswer) {
         if (playerAnswer.toLowerCase().equals(correctAnswer)) {
-            System.out.println("Correct!" + "\n");
+            System.out.println("Correct!");
             correctAnswerCounterInc();
         } else {
             System.out.println("`" + playerAnswer + "` is wrong answer ;(. "
                     + "Correct answer was `" + correctAnswer + "`");
             System.out.println("Let's try again, " + player.getName()
-                    + "!" + "\n");
-            correctAnswerCounterReset();
+                    + "!");
+            System.exit(0);
+            //correctAnswerCounterReset();
         }
     }
     public int getCorrectAnswerCounter() {
@@ -38,7 +39,7 @@ public class Engine {
         this.correctAnswerCounter += 1;
     }
 
-    public void correctAnswerCounterReset() {
-        this.correctAnswerCounter = 0;
-    }
+//    public void correctAnswerCounterReset() {
+//        this.correctAnswerCounter = 4;
+//    }
 }
