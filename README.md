@@ -1,12 +1,17 @@
-### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ZorgIT/java-project-61/workflows/hexlet-check/badge.svg)](https://github.com/ZorgIT/java-project-61/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fd2a1e010c133e2687ed/maintainability)](https://codeclimate.com/github/ZorgIT/java-project-61/maintainability)
+### Игры разума:
+Консольное приложение, состоящие из 5 игр. <br>
+В начале каждой игры приложение дает задание на которое необходимо ответить <br>
+написав в консоль свой вариант ответа. Игра идет до 3-х правильных решений подряд.
+## Пример работы с программой
+[![asciicast](https://asciinema.org/a/MLTzd7pVdsM2xXzil2u4Lxpll.svg)](https://asciinema.org/a/MLTzd7pVdsM2xXzil2u4Lxpll)
 
-## asciinema
-
-st5 [Record first test asciinema](https://asciinema.org/a/8fjcFsXZqDh4W16fbL0VUmOGR)\
-st6 [Record two game asciinema](https://asciinema.org/a/7jgcxbwLRa0jU2Slz5LcFP5bf)\
-st7 [Record GCD game asciinema](https://asciinema.org/a/Ffs4RgAwBIrwWhePg80E9rYbp)\
-st8 [Record Progression game asciinema](https://asciinema.org/a/4jX312nO5NPPBMFD0yFGHeCO0)\ 
-st9 [Record Prime game asciinema](https://asciinema.org/a/MLTzd7pVdsM2xXzil2u4Lxpll)\ 
-
+ ## Учебные цели проекта:
+- Построение архитектуры приложения;
+- Обработка ввода\вывода, обработка строковых данных;
+- Ознакомление с системой сборки Gradle и IDE Intellij idea;
+- Настройка утилиты Make
+- Закрепление работы с GitHub.
+- Подключение и настройка checkstyle для валидации кода на соответствие <br>
+стандартам разработки;
